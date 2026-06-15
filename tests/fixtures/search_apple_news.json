@@ -1,0 +1,369 @@
+{
+ "explains": [],
+ "count": 13,
+ "quotes": [
+  {
+   "exchange": "NMS",
+   "shortname": "Apple Inc.",
+   "quoteType": "EQUITY",
+   "symbol": "AAPL",
+   "index": "quotes",
+   "score": 16803000.0,
+   "typeDisp": "Equity",
+   "longname": "Apple Inc.",
+   "exchDisp": "NASDAQ",
+   "sector": "Technology",
+   "sectorDisp": "Technology",
+   "industry": "Consumer Electronics",
+   "industryDisp": "Consumer Electronics",
+   "dispSecIndFlag": true,
+   "isYahooFinance": true
+  },
+  {
+   "exchange": "MEX",
+   "shortname": "APPLE INC",
+   "quoteType": "EQUITY",
+   "symbol": "AAPL.MX",
+   "index": "quotes",
+   "score": 20017.0,
+   "typeDisp": "Equity",
+   "longname": "Apple Inc.",
+   "exchDisp": "Mexico",
+   "sector": "Technology",
+   "sectorDisp": "Technology",
+   "industry": "Consumer Electronics",
+   "industryDisp": "Consumer Electronics",
+   "isYahooFinance": true
+  },
+  {
+   "exchange": "TOR",
+   "shortname": "APPLE CDR (CAD HEDGED)",
+   "quoteType": "EQUITY",
+   "symbol": "AAPL.TO",
+   "index": "quotes",
+   "score": 20003.0,
+   "typeDisp": "Equity",
+   "longname": "Apple Inc.",
+   "exchDisp": "Toronto",
+   "sector": "Technology",
+   "sectorDisp": "Technology",
+   "industry": "Consumer Electronics",
+   "industryDisp": "Consumer Electronics",
+   "isYahooFinance": true
+  }
+ ],
+ "news": [
+  {
+   "uuid": "8733764a-30c8-3293-8b04-09ed0f8baa0c",
+   "title": "AI Integration and iPhone Growth Assert Apple Inc. (AAPL) as One of the Best Forever Stocks to Buy",
+   "publisher": "Insider Monkey",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ai-integration-iphone-growth-assert-032616166.html",
+   "providerPublishTime": 1781234776,
+   "type": "STORY",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/ieh7i4zwtatSlrFKDRkXiw--~B/aD02MzU7dz05NjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/4b27655209a0933483ce3f8454e99cac",
+      "width": 960,
+      "height": 635,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/k2gV85iQ20XvNXeKYflhVw--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/4b27655209a0933483ce3f8454e99cac",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "AAPL",
+    "GOOG"
+   ]
+  },
+  {
+   "uuid": "44670f47-fcbf-3276-89ef-ddb2a04094d1",
+   "title": "Does Apple Stock Have More Upside?",
+   "publisher": "Trefis",
+   "link": "https://finance.yahoo.com/m/44670f47-fcbf-3276-89ef-ddb2a04094d1/does-apple-stock-have-more.html",
+   "providerPublishTime": 1781218253,
+   "type": "STORY",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/ADp9p6wst7DCVV1pBbcgXw--~B/aD0xMDI0O3c9MTAyNDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/4b6b60644f7819f67e2a0288cbd97db1",
+      "width": 1024,
+      "height": 1024,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/bzdzIVggIyz0F4vod_Cv8g--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/4b6b60644f7819f67e2a0288cbd97db1",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "AAPL",
+    "DELL",
+    "GOOG",
+    "HPQ",
+    "AMZN",
+    "MSFT"
+   ]
+  },
+  {
+   "uuid": "ddbd616f-a87a-3c12-88cb-97d47053db4a",
+   "title": "Here's Why Apple (AAPL) Gained But Lagged the Market Today",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-apple-aapl-gained-214502493.html",
+   "providerPublishTime": 1781214302,
+   "type": "STORY",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/apbC75v0joJeGGZArvqIvw--~B/aD02NzU7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/105b2acef7bf0873f24b78932b1fdc3c",
+      "width": 900,
+      "height": 675,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/QRZaVqotQ5qIVtJkA1fW4A--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/zacks.com/105b2acef7bf0873f24b78932b1fdc3c",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "AAPL",
+    "^GSPC",
+    "^DJI",
+    "^IXIC"
+   ]
+  },
+  {
+   "uuid": "94d0e9fe-3848-4fcd-a1fa-67f063d516ef",
+   "title": "Siri upgrades show promise, but questions remain",
+   "publisher": "Yahoo Finance Video",
+   "link": "https://finance.yahoo.com/video/siri-upgrades-show-promise-but-questions-remain-195225562.html",
+   "providerPublishTime": 1781207545,
+   "type": "VIDEO",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/ReNns5N5MBa5vEbZBkgVoA--~B/aD0zMDY0O3c9NDU5MjthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2019-10/8c71dcb0-eb89-11e9-ad8d-1fe427d8cce8",
+      "width": 4592,
+      "height": 3064,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/Dv5c.MVhVPRfthf6SuVoxg--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2019-10/8c71dcb0-eb89-11e9-ad8d-1fe427d8cce8",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "GOOG",
+    "AAPL"
+   ]
+  },
+  {
+   "uuid": "b6ecb4ae-8f23-3e2e-9472-ee5a0849fdbc",
+   "title": "The Best Mid-Cap ETFs to Buy",
+   "publisher": "Kiplinger",
+   "link": "https://finance.yahoo.com/m/b6ecb4ae-8f23-3e2e-9472-ee5a0849fdbc/the-best-mid-cap-etfs-to-buy.html",
+   "providerPublishTime": 1781206964,
+   "type": "STORY",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/XatkGwk4yj8euvk8FAJIxQ--~B/aD04NTQ7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/kiplinger_425/a2ccb1ecdca8c1eee395dccc64a12c60",
+      "width": 1280,
+      "height": 854,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/.EKb70qM7KrzBSlIizAi7Q--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/kiplinger_425/a2ccb1ecdca8c1eee395dccc64a12c60",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "AMZN",
+    "GOOG",
+    "AAPL",
+    "META",
+    "MSFT",
+    "NVDA",
+    "TSLA"
+   ]
+  },
+  {
+   "uuid": "df2aacf7-e4aa-46ae-bf23-759a5c59d074",
+   "title": "How Apple rebuilt Siri with Google's AI",
+   "publisher": "Yahoo Finance",
+   "link": "https://finance.yahoo.com/sectors/technology/article/how-apple-rebuilt-siri-with-googles-ai-184257746.html",
+   "providerPublishTime": 1781203377,
+   "type": "STORY",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/4wOwamGiFpgLi1ZtNOS0qg--~B/aD0xMTExO3c9MTk3NTthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/4bc515e8-7efe-4cea-9028-89b35eaaea20_aa58f378c580e27df998e9faa06c5f6c79b5f0ce7f21581eb35d7676484762a4.jpg",
+      "width": 1975,
+      "height": 1111,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/HRMZuTttOa4Ef94UzqlChA--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/4bc515e8-7efe-4cea-9028-89b35eaaea20_aa58f378c580e27df998e9faa06c5f6c79b5f0ce7f21581eb35d7676484762a4.jpg",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "AAPL",
+    "GOOGL",
+    "GOOG"
+   ]
+  },
+  {
+   "uuid": "35b6f2f8-97ac-3822-b002-feb7f92985eb",
+   "title": "Is Affirm Holdings, Inc. (AFRM) A Good Stock To Buy Now?",
+   "publisher": "Insider Monkey",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/affirm-holdings-inc-afrm-good-175937302.html",
+   "providerPublishTime": 1781200777,
+   "type": "STORY",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/gpyLSDpj7HWAz1yvWvMuAA--~B/aD01MTI7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/7ffda457565139c481d660200b662c3a",
+      "width": 768,
+      "height": 512,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/D503F3RYzPCdLuGCGRvwbg--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/7ffda457565139c481d660200b662c3a",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "COST",
+    "AMZN",
+    "AFRM",
+    "SHOP",
+    "AAPL"
+   ]
+  },
+  {
+   "uuid": "1202de97-7613-36b9-abfa-385394a35ba5",
+   "title": "Intel Just Got a Rare Double Upgrade From Bank of America. The Stock Is Surging",
+   "publisher": "Investopedia",
+   "link": "https://finance.yahoo.com/m/1202de97-7613-36b9-abfa-385394a35ba5/intel-just-got-a-rare-double.html",
+   "providerPublishTime": 1781199892,
+   "type": "STORY",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/Q6mBwH2xB8WCHwNSwY9kIQ--~B/aD0zODYyO3c9NTYyNDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/investopedia_245/a6183ccbcc88b492b918b3d7ae2b0de7",
+      "width": 5624,
+      "height": 3862,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/1XxhW6XuP51oRHofMSCgvw--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/investopedia_245/a6183ccbcc88b492b918b3d7ae2b0de7",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "INTC",
+    "BAC",
+    "AAPL",
+    "^GSPC"
+   ]
+  },
+  {
+   "uuid": "bd5cb135-c42c-36f1-a16a-d6e22d4440d9",
+   "title": "Apple Inc. (AAPL) Is A Top Stock In Ken Griffin\u2019s Portfolio",
+   "publisher": "Insider Monkey",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/apple-inc-aapl-top-stock-173042378.html",
+   "providerPublishTime": 1781199042,
+   "type": "STORY",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/4KMPnSMaq1s5asIYu0bmmw--~B/aD02Njg7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/b4ec8c9cdbe4eafe712460d58f7005c4",
+      "width": 1000,
+      "height": 668,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/AXE9XJlFLf3cWPlYMcSK3A--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/b4ec8c9cdbe4eafe712460d58f7005c4",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "AAPL"
+   ]
+  },
+  {
+   "uuid": "41780448-aaff-341a-95d8-ab45c39e9b36",
+   "title": "Should You Buy Amazon.com (AMZN)?",
+   "publisher": "Insider Monkey",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/buy-amazon-com-amzn-173017087.html",
+   "providerPublishTime": 1781199017,
+   "type": "STORY",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/AtuDhwV2CcG41Czjicmr9A--~B/aD0xMTE5O3c9MTY3ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/bf5db36a1da6774e5e796de67b414473",
+      "width": 1678,
+      "height": 1119,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/wI2_U3z27_amcOwoH3lWZA--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/bf5db36a1da6774e5e796de67b414473",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "AMZN",
+    "AAPL",
+    "GSAT"
+   ]
+  }
+ ],
+ "nav": [],
+ "lists": [],
+ "researchReports": [],
+ "screenerFieldResults": [],
+ "totalTime": 56,
+ "timeTakenForQuotes": 440,
+ "timeTakenForNews": 600,
+ "timeTakenForAlgowatchlist": 400,
+ "timeTakenForPredefinedScreener": 400,
+ "timeTakenForCrunchbase": 0,
+ "timeTakenForNav": 400,
+ "timeTakenForResearchReports": 0,
+ "timeTakenForScreenerField": 0,
+ "timeTakenForCulturalAssets": 0,
+ "timeTakenForSearchLists": 0
+}

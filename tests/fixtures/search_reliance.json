@@ -1,0 +1,280 @@
+{
+ "explains": [],
+ "count": 12,
+ "quotes": [
+  {
+   "exchange": "NYQ",
+   "shortname": "Reliance, Inc.",
+   "quoteType": "EQUITY",
+   "symbol": "RS",
+   "index": "quotes",
+   "score": 20035.0,
+   "typeDisp": "Equity",
+   "longname": "Reliance, Inc.",
+   "exchDisp": "NYSE",
+   "sector": "Basic Materials",
+   "sectorDisp": "Basic Materials",
+   "industry": "Steel",
+   "industryDisp": "Steel",
+   "dispSecIndFlag": true,
+   "isYahooFinance": true,
+   "prevName": "Reliance Steel & Aluminum Co.",
+   "nameChangeDate": "2026-06-11"
+  },
+  {
+   "exchange": "BSE",
+   "shortname": "RELIANCE INFRASTRUCTURE LTD.",
+   "quoteType": "EQUITY",
+   "symbol": "RELINFRA.BO",
+   "index": "quotes",
+   "score": 20016.0,
+   "typeDisp": "Equity",
+   "longname": "Reliance Infrastructure Limited",
+   "exchDisp": "Bombay",
+   "sector": "Utilities",
+   "sectorDisp": "Utilities",
+   "industry": "Utilities\u2014Independent Power Producers",
+   "industryDisp": "Utilities\u2014Independent Power Producers",
+   "isYahooFinance": true
+  },
+  {
+   "exchange": "NSI",
+   "shortname": "RELIANCE INDUSTRIES LTD",
+   "quoteType": "EQUITY",
+   "symbol": "RELIANCE.NS",
+   "index": "quotes",
+   "score": 20015.0,
+   "typeDisp": "Equity",
+   "longname": "Reliance Industries Limited",
+   "exchDisp": "NSE",
+   "sector": "Energy",
+   "sectorDisp": "Energy",
+   "industry": "Oil & Gas Refining & Marketing",
+   "industryDisp": "Oil & Gas Refining & Marketing",
+   "isYahooFinance": true
+  },
+  {
+   "exchange": "NSI",
+   "shortname": "RELIANCE INFRASTRUCTU LTD",
+   "quoteType": "EQUITY",
+   "symbol": "RELINFRA.NS",
+   "index": "quotes",
+   "score": 20005.0,
+   "typeDisp": "Equity",
+   "longname": "Reliance Infrastructure Limited",
+   "exchDisp": "NSE",
+   "sector": "Utilities",
+   "sectorDisp": "Utilities",
+   "industry": "Utilities\u2014Independent Power Producers",
+   "industryDisp": "Utilities\u2014Independent Power Producers",
+   "isYahooFinance": true
+  },
+  {
+   "exchange": "NSI",
+   "shortname": "RELIANCE CHEMOTEX IND LTD",
+   "quoteType": "EQUITY",
+   "symbol": "RELCHEMQ.NS",
+   "index": "quotes",
+   "score": 20003.0,
+   "typeDisp": "Equity",
+   "longname": "Reliance Chemotex Industries Limited",
+   "exchDisp": "NSE",
+   "sector": "Consumer Cyclical",
+   "sectorDisp": "Consumer Cyclical",
+   "industry": "Textile Manufacturing",
+   "industryDisp": "Textile Manufacturing",
+   "isYahooFinance": true
+  },
+  {
+   "exchange": "NSI",
+   "shortname": "RELIANCE HOME FINANCE LTD",
+   "quoteType": "EQUITY",
+   "symbol": "RHFL.NS",
+   "index": "quotes",
+   "score": 20003.0,
+   "typeDisp": "Equity",
+   "longname": "Reliance Home Finance Limited",
+   "exchDisp": "NSE",
+   "sector": "Financial Services",
+   "sectorDisp": "Financial Services",
+   "industry": "Mortgage Finance",
+   "industryDisp": "Mortgage Finance",
+   "isYahooFinance": true
+  },
+  {
+   "exchange": "NSI",
+   "shortname": "RELIANCE COMMUNICATIONS L",
+   "quoteType": "EQUITY",
+   "symbol": "RCOM.NS",
+   "index": "quotes",
+   "score": 20003.0,
+   "typeDisp": "Equity",
+   "longname": "Reliance Communications Limited",
+   "exchDisp": "NSE",
+   "sector": "Communication Services",
+   "sectorDisp": "Communication Services",
+   "industry": "Telecom Services",
+   "industryDisp": "Telecom Services",
+   "isYahooFinance": true
+  }
+ ],
+ "news": [
+  {
+   "uuid": "5c02616c-9519-39c9-a1de-19b4550a087c",
+   "title": "Reliance Stock Gains 30% in 3 Months: What's Driving the Rally?",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/reliance-stock-gains-30-3-164700515.html",
+   "providerPublishTime": 1780937220,
+   "type": "STORY",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/g74rZSa1GeIE2jVz8QHJ5A--~B/aD0zMzI7dz00OTE7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/0bfabf26dffac6c1bd18bb9c52c4f9ef",
+      "width": 491,
+      "height": 332,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/sB72lPKa8wxxwl0w5lrbRA--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/zacks.com/0bfabf26dffac6c1bd18bb9c52c4f9ef",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "RS",
+    "ASM",
+    "DPMLF",
+    "NEXA"
+   ]
+  },
+  {
+   "uuid": "cb1f1afb-f054-381c-8599-1653e38550f0",
+   "title": "Reliance, Inc. Announces Participation at the Wells Fargo 16th Annual Industrials & Materials Conference",
+   "publisher": "GlobeNewswire",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/reliance-inc-announces-participation-wells-200500401.html",
+   "providerPublishTime": 1780603500,
+   "type": "STORY",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/lf1zE64.Zm0XFksPLpfPKQ--~B/aD0xMTI7dz02MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/globenewswire.com/46ac47b8221882c34164d9cdc8340ef7",
+      "width": 600,
+      "height": 112,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/77c0bS8zKDtzTVE_psAJuQ--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/globenewswire.com/46ac47b8221882c34164d9cdc8340ef7",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "RS"
+   ]
+  },
+  {
+   "uuid": "d4b7dde5-fe99-3604-9920-ce1076b5f81f",
+   "title": "Reliance Stock Hits 52-Week High: What's Driving Its Performance?",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/reliance-stock-hits-52-week-122600338.html",
+   "providerPublishTime": 1780489560,
+   "type": "STORY",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/SZN1KtruvN1kE7KHISHrJw--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/124f1f4e4fcc578e5486ea52e0d08740",
+      "width": 620,
+      "height": 413,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/W6i2Jum630AIBMyg1lu8LA--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/zacks.com/124f1f4e4fcc578e5486ea52e0d08740",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "RS",
+    "ASM",
+    "CRS",
+    "ALB",
+    "ALB-PA"
+   ]
+  },
+  {
+   "uuid": "053bdb0f-ed6e-36fb-a428-2b3b7710d98f",
+   "title": "Assessing Reliance (RS) Valuation After Strong Multi Year Shareholder Returns",
+   "publisher": "Simply Wall St.",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/assessing-reliance-rs-valuation-strong-190701743.html",
+   "providerPublishTime": 1780340821,
+   "type": "STORY",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/ilz_QRJfue4O96SgMglUEQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/26cebba865ed1d4633d2eacc31dceb62",
+      "width": 1194,
+      "height": 432,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/0pkzOKoSk5tA0ai5tgQFnw--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/26cebba865ed1d4633d2eacc31dceb62",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "RS"
+   ]
+  },
+  {
+   "uuid": "0d6f70e8-e1b4-34f5-b5a5-17b7642ce2bf",
+   "title": "If You Invested $1000 in Reliance 10 Years Ago, This Is How Much You'd Have Now",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/invested-1000-reliance-10-years-123003706.html",
+   "providerPublishTime": 1779971403,
+   "type": "STORY",
+   "thumbnail": {
+    "resolutions": [
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/OL7xfT5pzuzwP2wxb1pcSw--~B/aD02MjU7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/7ea641b46fe75c0a913349e5e610d6a2",
+      "width": 900,
+      "height": 625,
+      "tag": "original"
+     },
+     {
+      "url": "https://s.yimg.com/uu/api/res/1.2/b9rAc1dD4ZmWarIFuNIcGw--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/zacks.com/7ea641b46fe75c0a913349e5e610d6a2",
+      "width": 140,
+      "height": 140,
+      "tag": "140x140"
+     }
+    ]
+   },
+   "relatedTickers": [
+    "RS"
+   ]
+  }
+ ],
+ "nav": [],
+ "lists": [],
+ "researchReports": [],
+ "screenerFieldResults": [],
+ "totalTime": 53,
+ "timeTakenForQuotes": 437,
+ "timeTakenForNews": 600,
+ "timeTakenForAlgowatchlist": 400,
+ "timeTakenForPredefinedScreener": 400,
+ "timeTakenForCrunchbase": 0,
+ "timeTakenForNav": 400,
+ "timeTakenForResearchReports": 0,
+ "timeTakenForScreenerField": 0,
+ "timeTakenForCulturalAssets": 0,
+ "timeTakenForSearchLists": 0
+}

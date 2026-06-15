@@ -50,7 +50,23 @@ exists in this flow. The session persists to `~/.yfinance-ai/session.json`
 LLM agent sees auth errors, it can self-heal by calling the `yfin_login` MCP
 tool / `yfin login` CLI command.
 
+## Have your agent install it (recommended)
+
+Paste this into your AI coding agent (Claude Code, Cursor, etc.):
+
+> Install and set up yahoo-finance-ai-tool by following the instructions at
+> https://raw.githubusercontent.com/singhvedant/yahoo-finance-ai-tool/main/llms.txt
+
+The agent will install the package, register the `yfinance` MCP server, and
+start using it — no further input needed.
+
 ## Install
+
+```bash
+pip install yahoo-finance-ai-tool
+```
+
+For local development:
 
 ```bash
 cd yahoo-finance-ai-tool

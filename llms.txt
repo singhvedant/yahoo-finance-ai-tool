@@ -1,0 +1,123 @@
+# yahoo-finance-ai-tool
+
+> Async Yahoo Finance client, CLI (`yfin`), and MCP server for AI coding
+> agents. Fetches quotes, OHLCV history, fundamentals, key stats, technical
+> indicators, dividends/splits/earnings, news, option chains, holders, and
+> analyst data for any ticker on any world exchange (`AAPL`, `RELIANCE.NS`,
+> `7203.T`, `BMW.DE`, etc.). No credentials required — cookie+crumb auth is
+> bootstrapped automatically.
+
+This file gives an AI coding agent everything needed to install this tool and
+start using it autonomously, with no further human input.
+
+## Install
+
+```bash
+pip install yahoo-finance-ai-tool
+# or
+uv pip install yahoo-finance-ai-tool
+```
+
+Verify:
+
+```bash
+yfin auth-status
+```
+
+## Register as an MCP server (recommended for agents)
+
+After install, register the `yfinance` MCP server (stdio transport) with
+your agent host. For Claude Code:
+
+```bash
+claude mcp add yfinance -- yfin serve
+```
+
+For other MCP-compatible hosts, point the client at the command `yfin serve`
+(stdio) or run `yfin serve --transport http --port 8632` and connect to
+`http://127.0.0.1:8632/mcp`.
+
+Once registered, the following tools are available — call them directly,
+no further setup:
+
+`yfin_login`, `yfin_auth_status`, `yfin_search`, `yfin_quote`, `yfin_price`,
+`yfin_fundamentals`, `yfin_key_stats`, `yfin_profile`, `yfin_technical`,
+`yfin_events`, `yfin_earnings`, `yfin_news`, `yfin_options`, `yfin_holders`,
+`yfin_analysts`, `yfin_snapshot`, `yfin_bulk`, `yfin_export`.
+
+## Or use the CLI directly (no MCP host)
+
+Every command mirrors an MCP tool 1:1. Add `--json` for machine-readable
+output.
+
+```bash
+yfin search "reliance industries"            # resolve name -> symbol, any exchange
+yfin quote AAPL MSFT RELIANCE.NS              # realtime quotes
+yfin price AAPL --range 1y --interval 1d      # OHLCV history (intraday: 1m..1h)
+yfin fundamentals AAPL --statement income --frequency annual
+yfin stats AAPL                               # valuation ratios, margins, growth
+yfin profile AAPL                             # sector/industry/summary
+yfin technical AAPL --range 1y                # SMA/EMA/RSI/MACD/BB/ATR/Stoch + signals
+yfin events AAPL --range 5y                   # dividends, splits, earnings calendar
+yfin earnings AAPL                            # EPS actual vs estimate history
+yfin news AAPL --limit 10
+yfin options AAPL --expiry 2026-12-18         # option chain
+yfin holders AAPL                             # institutional/fund holders
+yfin analysts AAPL                            # price targets + recommendation trend
+yfin snapshot AAPL                            # everything in one JSON
+yfin bulk AAPL MSFT RELIANCE.NS TCS.NS --dataset price --range 5y --out prices.parquet
+yfin export AAPL --what snapshot --fmt json
+```
+
+## Symbol conventions
+
+Use Yahoo Finance ticker suffixes: `AAPL`/`MSFT` (US, no suffix),
+`RELIANCE.NS` (NSE India), `RELIANCE.BO` (BSE), `7203.T` (Tokyo Stock
+Exchange), `BMW.DE` (Xetra). If unsure of a symbol, call `yfin_search` /
+`yfin search "<company name>"` first to resolve it.
+
+## Auth / self-healing
+
+Cookie+crumb session is bootstrapped automatically on first use and persists
+at `~/.yfinance-ai/session.json` — there is nothing to configure. If a tool
+returns an `AuthenticationError` or `RateLimitError`-shaped error:
+
+1. Call `yfin_login` (MCP) or run `yfin login` (CLI) to refresh the session.
+2. Retry the original call.
+3. For `yfin_bulk`/`yfin bulk` on large symbol lists, lower `concurrency`
+   (e.g. `4`) if throttled.
+
+## Conventions agents should follow
+
+- Missing numeric fields are `None`, never `0` — treat as "not available",
+  do not treat as zero in calculations.
+- `yfin_bulk` isolates per-symbol failures as `{"error": ...}` entries; the
+  batch never aborts — check each entry individually.
+- Quarterly statement line items are deprecated by Yahoo (only `endDate`
+  remains per period) — use annual statements or `yfin_key_stats` for
+  current ratios.
+- Options data is mostly US-only. Intraday intervals (`1m`..`1h`) only work
+  for recent date ranges (Yahoo limitation).
+- This is an **unofficial API** wrapping Yahoo's public endpoints — be polite
+  (default rate limit 2 req/s) and handle occasional 429s via retry.
+
+## Worked example: full equity analysis
+
+```
+yfin_quote(symbols=["AAPL"])
+yfin_key_stats(symbol="AAPL")
+yfin_fundamentals(symbol="AAPL", statement="income", frequency="annual")
+yfin_technical(symbol="AAPL", range="1y")
+yfin_analysts(symbol="AAPL")
+yfin_news(symbol="AAPL", limit=5)
+```
+
+Synthesize: valuation (P/E vs growth), revenue/margin trend, technical
+posture (RSI, MACD signal, price vs SMA200, ATR for volatility), analyst
+consensus vs current price, and recent news catalysts.
+
+## More
+
+- Full README (architecture, endpoints, testing): https://github.com/singhvedant/yahoo-finance-ai-tool
+- Source: https://github.com/singhvedant/yahoo-finance-ai-tool
+- PyPI: https://pypi.org/project/yahoo-finance-ai-tool/
